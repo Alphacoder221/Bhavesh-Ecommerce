@@ -1,0 +1,60 @@
+body {
+	background-color: #F4F4F4;
+}
+
+.main-content {
+	text-align: center;
+	margin-top: 140px;
+}
+
+.main-title {
+	font-weight: bold;
+	font-size: 25px;
+	margin: auto auto 20px;
+}
+
+.card {
+	width: 400px;
+	background-color: #fff;
+	padding: 25px 25px;
+	border: 1px solid #f4f4f4;
+	border-radius: 5px;
+	box-shadow: 2px 2px 15px #ccc;
+	margin: auto auto 50px;
+}
+
+.card .card-title {
+	font-size: 13px;
+}
+
+.card .card-content {
+	margin-top: 15px;
+}
+
+.card .card-content .form {
+	border: 1px solid rgb(246, 246, 246);
+	padding: 0 10px 10px;
+}
+
+.card .card-content .form .input-group {
+	margin: 10px 0;
+	width: 100%;
+}
+
+.card .card-content .form .input-group .input-group-addon {
+	background-color: #FDFDFD;
+	width: 50px;
+}
+
+.card .card-content .form .input-group input:disabled {
+	background-color: #fafafa;
+}
+
+.card .card-content .form .submit-btn {
+	text-align: right;
+}
+
+.card .card-content .form .submit-btn .btn {
+	width: 125px;
+	border-radius: 2px;
+}

@@ -1,0 +1,80 @@
+body {
+	background-color: #f0f0f0;
+}
+
+.main-content {
+	background-color: #fff;
+	margin-top: 135px;
+	padding: 25px 20px;
+	text-align: center;
+}
+
+
+.table-bordered {
+	border-color: #f4f4f4;
+	width: 100%;
+}
+
+.table-bordered tr:first-child {
+	background-color: #f8f8f8;
+}
+
+.table-bordered tr th {
+	text-align: center;
+	padding: 5px 0;
+	font-size: 16px;
+	letter-spacing: .05em;
+}
+
+.table-bordered tr td {
+	text-align: left;
+	padding: 10px 30px;
+	width: auto;
+}
+
+.table-bordered tr td:nth-child(2) {
+	font-size: 20px;
+	text-align: center;
+}
+
+.table-bordered tr td:last-child {
+	width: 200px;
+}
+
+.table-bordered .item-img {
+	padding-left: 20px;
+}
+
+.table-bordered .item-img img {
+	height: 120px;
+	width: auto;
+}
+
+.table-bordered .item-title {
+	font-size: 16px;
+	font-family: "Secular One", sans-serif;
+	margin-bottom: 10px;
+}
+
+.table-bordered .item-basic-info {
+	font-size: 13px;
+	color: #888;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.table-bordered .price-category {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.table-bordered .price-category .old-price {
+	color: crimson;
+	text-decoration: line-through;
+}
+
+.table-bordered .price-category .new-price {
+	font-size: 18px;
+	color: green;
+	font-weight: bold;
+}

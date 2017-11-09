@@ -1,0 +1,175 @@
+body {
+	background-color: #f0f0f0;
+}
+
+.main-content {
+	margin-top: 130px;
+}
+
+.card {
+	background-color: #fff;
+	padding: 25px;
+	margin-bottom: 15px;
+	-webkit-transition: all 0.15s ease-in-out;
+	transition: all 0.15s ease-in-out;
+	overflow-x: scroll;
+}
+
+.card:hover {
+	box-shadow: 3px 3px 10px #aaa;
+}
+
+.card .card-title {
+	font-size: 30px;
+	border-bottom: 1px solid #e8e8e8;
+	margin-bottom: 25px;
+}
+
+.card .card-content .orders {
+	margin: 30px 25px;
+}
+
+.card .card-content .order-details {
+	border-right: 2px solid #e0e0e0;
+	text-align: left;
+	padding: 15px 0;
+}
+
+.card .card-content .order-details .order-id {
+	font-weight: bold;
+}
+
+.card .card-content .order-details .order-timestamp {
+	font-size: 12px;
+	margin-left: 10px;
+	color: #777;
+}
+
+.card .card-content .order-details .order-status {
+	margin-left: 10px;
+	font-size: 14px;
+}
+
+.card .card-content .order-details .cancel-order{
+	text-align: right;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+
+.card .card-content .order-details .cancel-order a {
+	text-decoration: none;
+}
+
+.card .card-content .order-amt {
+	font-weight: bold;
+	margin-left: 10px;
+	font-size: 13px;
+}
+
+.card .card-content .table-stripped {
+	width: 100%;
+}
+
+.card .card-content .table-stripped tr:nth-child(even) {
+	background-color: #FAFAFA;
+}
+
+.card .card-content .table-stripped tr:first-child td {
+	font-weight: bold;
+}
+
+.card .card-content .table-stripped tr td:nth-child(2) a{
+	text-decoration: none;
+}
+
+.card .card-content .table-stripped tr td:first-child {
+	text-align: right;
+	width: 50px;
+}
+
+.card .card-content .table-stripped tr td {
+	padding: 3px 15px;
+}
+
+.card .card-content .cart-table tr td:last-child{
+	width: 75px;
+	text-align: center;
+}
+
+.card .card-content .cart-table tr td:nth-child(4) {
+	width: 85px;
+}
+
+.card .card-content .cart-table tr td:nth-child(5) {
+	width: 100px;
+	text-align: right;
+}
+
+.card .card-content .wishlist-table tr td {
+	padding: 8px 15px;
+}
+
+.card .card-content .wishlist-table tr td:last-child {
+	text-align: center;
+}
+
+.card .card-content .wishlist-table tr td:last-child a {
+	margin: 0 10px;
+}
+
+.card .card-content .wishlist-table tr td:nth-child(4) {
+	text-align: right;
+}
+
+.card .card-content .order-table tr td:nth-child(2) {
+	width: 150px;
+}
+
+.card .card-content .order-table tr td:nth-child(4) {
+	width: 50px;
+	text-align: right;
+}
+
+.card .card-content .payable-amount {
+	padding: 15px 25px;
+	background-color: #f4f4f4;
+	border-top: 1px solid #F0F0F0;
+	border-bottom: 1px solid #F0F0F0;
+	text-align: center;
+	margin: 25px 50px;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.card .card-content .payable-amount .btn-danger {
+	background-color: #FF6347;
+	border-color: #FF6347;
+	width: 100px;
+	margin-left: 50px;
+	-webkit-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.card .card-content .payable-amount .btn-danger:hover {
+	background-color: #DC143C;
+	border-color: #DC143C;
+}
+
+.card .card-content .no-result {
+	font-size: 18px;
+	text-align: left;
+	margin-left: 50px;
+}
+
+.card .card-content .order-table tr td:nth-child(5) {
+	width: 125px;
+	text-align: right;
+}
+
+.card::-webkit-scrollbar {
+	height: 6px;
+}
+
+.card::-webkit-scrollbar-track {
+	background-color: #F0F0F0;
+}
